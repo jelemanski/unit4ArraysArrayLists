@@ -113,9 +113,10 @@ public class CharMatrix
        for(int i = 0; i<=row;i++)
        {
            if (row[i] == ' ')
-           { e++
+           { e++;
             }
         }
+        return e;
     }
 
     // Returns the count of all non-space characters in col 
